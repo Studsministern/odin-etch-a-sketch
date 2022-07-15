@@ -29,4 +29,12 @@ body {
 
 .grid {
     flex: 1;
+
+    -webkit-transition: all 10s;
+}
+
+.grid:hover {
+    background-color: black;
+    
+    -webkit-transition: all 0s;
 }
